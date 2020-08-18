@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "max-len": ["error", { "code": 100 }],
+    "prefer-promise-reject-errors": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/prop-types": ["off"],
+    "no-return-assign": ["off"],
+    "no-duplicate-imports": "error",
+    "import/extensions": ["error", "never", { "svg": "always" }],
+    "react/destructuring-assignment": [
+      "off",
+      "always",
+      { "ignoreClassFields": true }
+    ],
+    "react/jsx-one-expression-per-line": ["off", { "allow": "single-child" }],
+    "max-lines": "off",
+    "no-unused-vars": "warn"
+  }
+}
