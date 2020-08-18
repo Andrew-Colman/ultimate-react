@@ -7,9 +7,9 @@ Ultimate React Template (Parcel)
 1. [Setup](#Building%20and%20running%20on%20localhost)
 2. [Running](#Running)
 3. [Bundler](###Bundler%20/%20Transpiler)
-4. [Linting, code style:](#Linting,%20code%20style:)
+4. [Linting / code style:](#Linting%20/%20code%20style)
 5. [Routes](#Routes)
-6. [React Features:](#React%20Features:)
+6. [React Features](#React%20Features)
 7. [Styling](#Styling)
 8. [Testing](#Testing)
 9. [Additional Packages](#Additional%20Packages)
@@ -47,7 +47,7 @@ Open `localhost:1234/` in your browser
 
 [Babel](https://github.com/babel/babel) (es2020)
 
-### Linting, code style:
+### Linting / code style
 
 [Eslint](https://github.com/eslint/eslint) (airbnb style)
 
@@ -57,7 +57,7 @@ Open `localhost:1234/` in your browser
 
 [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 
-### React Features:
+### React Features
 
 React Lazy: Load different parts of the application only when they're needed (code-splitting)
 
