@@ -2,6 +2,19 @@
 
 Ultimate React Template (Parcel)
 
+## Table of Contents:
+
+1. [Setup](#Building%20and%20running%20on%20localhost)
+2. [Running](#Running)
+3. [Bundler](###Bundler%20/%20Transpiler)
+4. [Linting, code style:](#Linting,%20code%20style:)
+5. [Routes](#Routes)
+6. [React Features:](#React%20Features:)
+7. [Styling](#Styling)
+8. [Testing](#Testing)
+9. [Additional Packages](#Additional%20Packages)
+10. [Roadmap](#Roadmap)
+
 ## Building and running on localhost
 
 First install dependencies:
@@ -30,33 +43,43 @@ Open `localhost:1234/` in your browser
 
 ### Bundler / Transpiler
 
-[Parcel]()
+[Parcel](https://github.com/parcel-bundler/parcel)
 
-[Babel]() (es2020)
+[Babel](https://github.com/babel/babel) (es2020)
 
 ### Linting, code style:
 
-[Eslint]() (airbnb style)
+[Eslint](https://github.com/eslint/eslint) (airbnb style)
 
-[Prettier]()
+[Prettier](https://github.com/prettier/prettier)
+
+### Routes
+
+[React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+
+### React Features:
+
+React Lazy: Load different parts of the application only when they're needed (code-splitting)
+
+Suspense: Display useful loading states
 
 ### Styling
 
-[Styled components]()
+[Styled components](https://github.com/styled-components/styled-components)
 
-[Tailwind]()
+[Tailwind css](https://github.com/tailwindlabs/tailwindcss)
 
-[Twin.macros]()
+[Twin.macros](https://github.com/ben-rogerson/twin.macro)
 
-[Postcss]()
+[Postcss](https://github.com/postcss/postcss)
 
 ### Testing
 
-[jest]()
+[jest](https://github.com/facebook/jest)
 
-[jest-enzyme]()
+[jest-enzyme](https://github.com/FormidableLabs/enzyme-matchers/blob/master/packages/jest-enzyme/README.md)
 
-[enzyme]() (react-adapter-16)
+[enzyme](https://github.com/enzymejs/enzyme) (react-adapter-16)
 
 To run unit tests:
 
@@ -66,14 +89,18 @@ yarn test
 
 ### Additional Packages
 
-[Axios]()
+[Axios](https://github.com/axios/axios)
 
-[dotenv]()
+[dotenv](https://github.com/motdotla/dotenv)
 
 #### Roadmap
 
-[]- add docker database (postgres)
+[]- Add docker database (postgres)
 
-[]- add documentation
+[]- Add Context Provider
 
-[]- add example tests
+[]- Add documentation
+
+[]- Add more additional packages
+
+[]- Add example tests
