@@ -5,15 +5,15 @@ Ultimate React Template (Parcel)
 ## Table of Contents:
 
 0. [Requirements](#Requirements)
-1. [Setup](#Building%20and%20running%20on%20localhost)
+1. [Setup](#Building-and-running-on-localhost)
 2. [Running](#Running)
-3. [Bundler](###Bundler%20/%20Transpiler)
-4. [Linting / code style:](#Linting%20/%20code%20style)
+3. [Bundler](###Bundler-/-Transpiler)
+4. [Linting / code style](#Linting-/-code-style)
 5. [Routes](#Routes)
-6. [React Features](#React%20Features)
+6. [React Features](#React-Features)
 7. [Styling](#Styling)
 8. [Testing](#Testing)
-9. [Additional Packages](#Additional%20Packages)
+9. [Additional Packages](#Additional-Packages)
 10. [Roadmap](#Roadmap)
 
 ## Requirements
@@ -52,7 +52,7 @@ Open `localhost:1234/` in your browser
 
 ### Bundler / Transpiler
 
-[Parcel](https://github.com/parcel-bundler/parcel)
+[Parcel:](https://github.com/parcel-bundler/parcel) Blazing fast, zero configuration web application bundler
 
 [Babel](https://github.com/babel/babel) (es2020)
 
@@ -70,7 +70,11 @@ Open `localhost:1234/` in your browser
 
 [React Lazy:](reactjs.org/docs/code-splitting.html#reactlazy) Load different parts of the application only when they're needed (code-splitting)
 
-[Suspense:](https://pt-br.reactjs.org/docs/code-splitting.html#route-based-code-splitting) Display useful loading states
+[Suspense:](https://reactjs.org/docs/code-splitting.html#route-based-code-splitting) Display useful loading states
+
+[Context Api:](https://reactjs.org/docs/context.html) Provides a way to pass data through the component tree without having to pass props down manually at every level
+
+[Hooks:](https://reactjs.org/docs/hooks-intro.html) Let you use state and other React features without writing a class component. In other words, Hooks are functions that let you “hook into” React state and lifecycle features from function components.
 
 ### Styling
 
@@ -105,8 +109,6 @@ yarn test
 #### Roadmap
 
 []- Add docker database (postgres)
-
-[x]- Add Context Provider
 
 []- Add documentation
 
