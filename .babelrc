@@ -1,13 +1,11 @@
 {
+ "presets": [
+  ["@babel/preset-react", {
+    "runtime": "automatic"
+  }]
+  ],
   "plugins": [
-    ["@babel/plugin-transform-runtime", { "regenerator": true }],
-    [
-      "tailwind",
-      {
-        "plugins": ["macros"],
-        "config": "./src/tailwind.config.js",
-        " format": "auto"
-      }
-    ]
+    ["@babel/plugin-transform-runtime", { "regenerator": true }]
+    
   ]
 }

@@ -1,7 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import "./styles.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-var mountNode = document.getElementById("app");
-ReactDOM.render(<App />, mountNode);
+ReactDOM.render(<App />, document.getElementById('root'));
+
+if (import.meta.hot) {
+  import.meta.hot.accept();
+}

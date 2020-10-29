@@ -1,9 +1,6 @@
-import React from 'react';
-import { ContextProvider } from './components/Context';
-import Routes from './components/Routes';
+import Routes from '@components/Routes';
+import { ContextProvider } from '@components/Context';
 import GlobalStyle from './GlobalStyle';
-
-require('dotenv').config();
 
 export default function App() {
   return (
