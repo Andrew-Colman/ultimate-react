@@ -1,13 +1,13 @@
 # ultimate-react-template
 
-Ultimate React Template (Parcel)
+Ultimate React Template (Snowpack)
 
 ## Table of Contents:
 
 0. [Requirements](#Requirements)
 1. [Setup](#Building-and-running-on-localhost)
 2. [Running](#Running)
-3. [Bundler](###Bundler-/-Transpiler)
+3. [Build Tools](###Build-tools-/-Transpiler)
 4. [Linting / code style](#Linting-/-code-style)
 5. [Routes](#Routes)
 6. [React Features](#React-Features)
@@ -21,7 +21,7 @@ Ultimate React Template (Parcel)
 - [Node.js](https://nodejs.org/en/)
 - [Eslint extension](https://eslint.org/docs/user-guide/integrations) (recommended)
 - [Prettier extension](https://prettier.io/docs/en/editors.html) (recommended)
-- [Docker](https://docs.docker.com/desktop/) (recommended)
+<!-- - [Docker](https://docs.docker.com/desktop/) (recommended) -->
 - [Yarn](https://yarnpkg.com/) (optional)
 
 ## Building and running on localhost
@@ -43,18 +43,18 @@ yarn start
 To create a production build:
 
 ```sh
-yarn run build
+yarn build
 ```
 
 ## Running
 
-Open `localhost:1234/` in your browser
+Open `localhost:8080/` in your browser
 
-### Bundler / Transpiler
+### Build tools / Transpiler
 
-[Parcel:](https://github.com/parcel-bundler/parcel) Blazing fast, zero configuration web application bundler
+[Snowpack:](https://www.snowpack.dev/) Snowpack is a modern frontend build tool for faster web development. It replaces heavier, more complex bundlers like webpack or Parcel in your development workflow.
 
-[Babel](https://github.com/babel/babel) (es2020)
+[Babel](https://github.com/babel/babel) Babel is a compiler for writing next generation JavaScript.
 
 ### Linting / code style
 
@@ -80,19 +80,9 @@ Open `localhost:1234/` in your browser
 
 [Styled components](https://github.com/styled-components/styled-components) (with Global Style)
 
-[Tailwind css](https://github.com/tailwindlabs/tailwindcss)
-
-[Twin.macros](https://github.com/ben-rogerson/twin.macro)
-
 [Postcss](https://github.com/postcss/postcss)
 
 ### Testing
-
-[jest](https://github.com/facebook/jest)
-
-[jest-enzyme](https://github.com/FormidableLabs/enzyme-matchers/blob/master/packages/jest-enzyme/README.md)
-
-[enzyme](https://github.com/enzymejs/enzyme) (react-adapter-16)
 
 To run unit tests:
 
@@ -108,10 +98,14 @@ yarn test
 
 #### Roadmap
 
-[]- Add docker database (postgres)
+- [ ] Templates
 
-[]- Add documentation
+- [ ] Styles
 
-[]- Add more additional packages
+- [ ] Add /api
 
-[]- Add example tests
+- [ ] Add documentation
+
+- [ ] Additional packages ?
+
+- [ ] Add example tests
