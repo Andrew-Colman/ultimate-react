@@ -20,7 +20,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "prettier"],
-  "ignorePatterns": ["dist/*", "src/setupTests.js","*.config.js"],
+  "ignorePatterns": ["build/*", "src/setupTests.js","*.config.js"],
   "rules": {
     "max-len": ["error", { "code": 100 }],
     "prefer-promise-reject-errors": ["off"],
@@ -38,7 +38,7 @@
     "max-lines": "off",
     "no-unused-vars": "warn",
     "import/no-unresolved": "off",
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/jsx-uses-react": "off", //react 17
+    "react/react-in-jsx-scope": "off" //react 17
   }
 }

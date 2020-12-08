@@ -3,6 +3,8 @@
 coverage/
 dist/
 build/
+build-report/
+parcel-bundle-reports/
 node_modules/
 *.log
 
@@ -15,3 +17,6 @@ node_modules/
 ehthumbs.db
 Thumbs.db
 .vscode
+.parcel-cache
+yarn.lock
+.vercel

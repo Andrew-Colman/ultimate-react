@@ -1,28 +1,35 @@
-# ultimate-react-template
+# ultimate-react
 
-Ultimate React Template (Snowpack)
+Ultimate React Toolchain
+
+React 17 ready, including the [New JSX transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
+<!-- ```
+npx curapp <appName>
+``` -->
 
 ## Table of Contents:
 
 0. [Requirements](#Requirements)
 1. [Setup](#Building-and-running-on-localhost)
-2. [Running](#Running)
-3. [Build Tools](###Build-tools-/-Transpiler)
+2. [Features](#Features)
+3. [Parcel / Babel](###Bundler-/-Compiler)
 4. [Linting / code style](#Linting-/-code-style)
 5. [Routes](#Routes)
 6. [React Features](#React-Features)
 7. [Styling](#Styling)
 8. [Testing](#Testing)
 9. [Additional Packages](#Additional-Packages)
-10. [Roadmap](#Roadmap)
+10. [FAQ](#FAQ)
+11. [Roadmap](#Roadmap)
 
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/)
 - [Eslint extension](https://eslint.org/docs/user-guide/integrations) (recommended)
 - [Prettier extension](https://prettier.io/docs/en/editors.html) (recommended)
+- [Yarn](https://yarnpkg.com/) (highly recommended)
 <!-- - [Docker](https://docs.docker.com/desktop/) (recommended) -->
-- [Yarn](https://yarnpkg.com/) (optional)
 
 ## Building and running on localhost
 
@@ -40,19 +47,29 @@ To run in hot module reloading mode:
 yarn start
 ```
 
+> Open `localhost:1234/` in your browser
+
 To create a production build:
 
 ```sh
 yarn build
 ```
 
-## Running
+To visualize the size of your final bundle
 
-Open `localhost:8080/` in your browser
+```sh
+yarn bundle_analyze
+```
 
-### Build tools / Transpiler
+## Features
 
-[Snowpack:](https://www.snowpack.dev/) Snowpack is a modern frontend build tool for faster web development. It replaces heavier, more complex bundlers like webpack or Parcel in your development workflow.
+- alias
+
+- code splitting
+
+### Bundler / Compiler
+
+[Parcel:](https://github.com/parcel-bundler/parcel) Blazing fast, zero configuration web application bundler
 
 [Babel](https://github.com/babel/babel) Babel is a compiler for writing next generation JavaScript.
 
@@ -62,9 +79,18 @@ Open `localhost:8080/` in your browser
 
 [Prettier](https://github.com/prettier/prettier)
 
+```js
+yarn format // run prettier on all /src js/jsx files
+yarn format:check // check for unmatched prettier code style
+```
+
 ### Routes
 
 [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+
+@components/Routes
+
+add new pages at @pages folder
 
 ### React Features
 
@@ -80,7 +106,7 @@ Open `localhost:8080/` in your browser
 
 [Styled components](https://github.com/styled-components/styled-components) (with Global Style)
 
-[Postcss](https://github.com/postcss/postcss)
+> automatic CSS Libraries/frameworks support under dev
 
 ### Testing
 
@@ -96,11 +122,28 @@ yarn test
 
 [dotenv](https://github.com/motdotla/dotenv)
 
+### FAQ
+
+what ultimate react is?
+
+- not a react framework like next, gatsby
+- not a react component library
+- not boilerplate
+- not a create-react-app abstraction
+
+so what ultimate react is ? a complete react development [toolchain](https://reactjs.org/docs/create-a-new-react-app.html#creating-a-toolchain-from-scratch)
+
+- implements the latest tools
+
 #### Roadmap
 
 - [ ] Templates
 
+  > --t template
+
 - [ ] Styles
+
+  > --s style
 
 - [ ] Add /api
 
