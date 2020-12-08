@@ -19,6 +19,9 @@
   "scripts": {
     "start": "parcel serve ./src/index.html --open",
     "build": "parcel build ./src/index.html",
+    "dev": "vercel dev",
+    "preview": "vercel",
+    "deploy": "vercel --prod",
     "bundle_analyze": "set PARCEL_BUNDLE_ANALYZER=1 && parcel build ./src/index.html --dist-dir ./build-report",
     "postbundle_analyze": "html-pages -d ./parcel-bundle-reports/default.html -o -S",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
