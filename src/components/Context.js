@@ -1,15 +1,15 @@
-import React, { useState, createContext, useContext } from 'react';
+import { useState, createContext, useContext } from 'react';
 
 export const Context = createContext();
 
+/** example:
+ * import useValues from '@components/Context'
+ * const [values, setValues] = useValues();
+ * setValues(...values,{key:value})
+ * values.key
+ */
 export function useValues() {
   return useContext(Context);
-  /* example:
-   import useValues from components/Context
-   const [values, setValues] = useValues(); 
-   setValues(...values,{key:value})
-   values.key
-   */
 }
 
 export const ContextProvider = ({ children }) => {
