@@ -4,9 +4,9 @@
 
 ⚠️Under migration ⚠️
 
-Formely Ultimate React, now called **React Blazing** 🔥
+Formerly _Ultimate React_, now called **React Blazing** 🔥
 
--> Check out [Ultimate-Next](https://github.com/Andrew-Colman/ultimate-next) ( 🧰 work in progress ⏲️ ) 
+> Check out [Ultimate-Next](https://github.com/Andrew-Colman/ultimate-next) ( 🧰 work in progress ⏲️ ) 
 
 - [ ] ultimate next.js tool chain (new)
 
