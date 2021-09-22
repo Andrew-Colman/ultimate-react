@@ -1,6 +1,22 @@
-# ultimate-react
+# React Blazing
 
-Ultimate React Toolchain
+---
+
+⚠️Under migration ⚠️
+
+Formely Ultimate React, now called **React Blazing** 🔥
+
+-> Check out [Ultimate-Next](https://github.com/Andrew-Colman/ultimate-next) ( 🧰 work in progress ⏲️ ) 
+
+- [ ] ultimate next.js tool chain (new)
+
+- [ ] react blazing (this)
+
+- [ ] generator package (project scaffold engine)
+
+⚠️Under migration ⚠️
+
+---
 
 React 17 ready, including the [New JSX transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 
@@ -135,20 +151,4 @@ so what ultimate react is ? a complete react development [toolchain](https://rea
 
 - implements the latest tools
 
-#### Roadmap
 
-- [ ] Templates
-
-  > --t template
-
-- [ ] Styles
-
-  > --s style
-
-- [ ] Add /api
-
-- [ ] Add documentation
-
-- [ ] Additional packages ?
-
-- [ ] Add example tests
